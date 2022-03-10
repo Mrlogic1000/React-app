@@ -1,0 +1,70 @@
+.sitelabel{
+    position:absolute;
+    bottom: 0%;
+    left: 10%;
+    max-width: 45pc;
+    width: 90%;
+    background-color: #000000;
+    
+    color: whitesmoke;
+    height: 45%;    
+    margin-bottom: 15px;
+  }
+  .sitelabel-inner{
+   width: 90%;
+   margin: auto;
+   font-family: sans-serif;
+   color: #FFFFFF;
+  letter-spacing: normal;
+  font-weight: 400;
+  padding: 20px;
+   
+  }
+  .sitelabel-inner h1{
+    line-height: 48px;
+    font-size:  0.75rem; 
+   font-size: 38px;
+   padding-top: 20px;
+   
+  }
+  .sitelabel-inner p{
+    padding-top: 20px;
+    line-height: 1.67;
+    font-size:  0.75rem;
+   letter-spacing: normal;
+   font-size: 16px;
+   
+  }
+  @media (max-width: 640px) {
+    .sitelabel{
+      position:absolute;
+      bottom: 0%;
+      left: 5%;
+      max-width: 45pc;
+      width: 90%;
+      margin: auto;
+      background-color: #000000;
+      
+      color: whitesmoke;
+      height: 45%;
+      /* z-index: 1; */
+      margin-bottom: 15px;
+    }
+    .sitelabel-inner h1{
+      line-height: 30px;
+      font-size:  0.75rem; 
+     font-size: 26px;
+     padding-top: 5px;
+     
+    }
+    .sitelabel-inner p{
+      padding-top: 5px;
+      line-height: 18px;
+      font-size:  0.75rem;
+     letter-spacing: normal;
+     font-size: 16px;
+     
+    }
+  }
+  
+ 
